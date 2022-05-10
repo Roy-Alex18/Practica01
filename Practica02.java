@@ -21,7 +21,7 @@ public class Practica02 {
         System.out.println("proyecta imagenes");
     }
 
-    private static void main(String[] args) {
+    public static void main(String[] args) {
         Practica02 obj=new Practica02();
         Scanner lt=new Scanner(System.in);
         System.out.println("Ingrese el numero de algoritmos:\n1=profesor=\n2=estudiante"+
