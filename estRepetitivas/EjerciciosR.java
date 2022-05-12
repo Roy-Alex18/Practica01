@@ -37,10 +37,10 @@ public class EjerciciosR {
         for (int i = 0; i < nombre.length(); i++) {
             System.out.println(nombre.charAt(i));
         }
-            
+        for(int i = nombre.length()-1; i>=0; i--){
+             System.out.println(nombre.charAt(i));
+        }
     }
-     
-
     public static void main(String[] args) {
       /* System.out.println("Imprime While"); imprimirWhileN1_20();
        System.out.println("Imprime Do While"); imprimirDowhileN1_20();
