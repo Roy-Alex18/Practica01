@@ -1,6 +1,6 @@
 package estRepetitivas;
 
-public class Ejercicio0_1 {
+public class Ejercicio4_1 {
     
     public static void main(String[] args) {
         int salario = 1500;
