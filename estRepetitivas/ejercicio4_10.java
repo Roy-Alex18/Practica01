@@ -22,7 +22,7 @@ public class ejercicio4_10 {
     public static void main(String args[]) {
         System.out.println("Ingrese un numero: ");
         int num=leerT.nextInt();
-        for (int i = 0; i < num; i++) {
+        for (int i = 0; i <= num; i++) {
             System.out.println("Factorial de "+ i+ "es: " + factorialN(i));
         }
     }
