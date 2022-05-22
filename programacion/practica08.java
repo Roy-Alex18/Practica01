@@ -11,5 +11,15 @@ public class practica08 {
 
         System.out.println("Cual es tu nombre ");
         nombre = in.nextLine();
+
+        System.out.println("Dame el primer valor para tu suma: ");
+        numuno = in.nextInt();
+
+        System.out.println("Dame el segudo valor para tu suma: ");
+        numdos = in.nextInt();
+
+        resultado = numuno + numdos;
+
+        System.out.println("Hola "+ nombre +" el resulatdo de tu suma es: "+ resultado);
     }
 }
