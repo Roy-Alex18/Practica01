@@ -4,7 +4,7 @@ public class practica06 {
     public static void main(String args[]) {
         
         int matematicas = 5;
-        int biologuia = 8;
+        int biologuia = 5;
         int quimica = 7;
         int promedio = 0;
 
@@ -12,7 +12,7 @@ public class practica06 {
 
         if(promedio>=6){
             System.out.println("El alumno aprobo: "+ promedio);
-        }else if(promedio >= 6){
+        }else {
             System.out.println("El alumno desaprobo: "+ promedio);
         }
     }
