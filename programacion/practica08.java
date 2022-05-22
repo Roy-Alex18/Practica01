@@ -9,7 +9,7 @@ public class practica08 {
         String nombre = "";
         int numuno = 0, numdos = 0, resultado = 0;
 
-        System.out.println("Cual es tu nombre ");
+        System.out.println("¿Cual es tu nombre? ");
         nombre = in.nextLine();
 
         System.out.println("Dame el primer valor para tu suma: ");
