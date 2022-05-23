@@ -1,4 +1,4 @@
-public class practica11 {
+public class practica12 {
     public static void main(String args[]) {
         
         int i = 1;
