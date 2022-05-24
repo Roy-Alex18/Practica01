@@ -1,3 +1,5 @@
+package programacion;
+
 public class practica12 {
     public static void main(String args[]) {
         
