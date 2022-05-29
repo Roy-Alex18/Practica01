@@ -2,7 +2,7 @@ package tarea;
 
 import java.util.Scanner;
 
-public class ejercicio4_5 {
+public class ejercicio4_4 {
     public static void main(String[] args) {
         
         int n, color,verde,blanco,rojo;
