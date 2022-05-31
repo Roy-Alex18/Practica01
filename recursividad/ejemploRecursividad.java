@@ -17,12 +17,24 @@ public class ejemploRecursividad {
         }
         return n;
     }
-
+    public static double potencia(int base, int exponente) {
+        if(exponente == 0){
+            return 1;
+        }else if(exponente == 1){
+            return base;
+        }else if(exponente < 0){
+            return potencia(base, exponente + 1)/ base;
+        }else{
+            return base *potencia(base, exponente - 1);
+        }
+    }
 
 
     public static void main(String[] args){
-        System.out.println(factorialR(5));
-        System.out.println("fibonaciR: ");
-        System.out.println(fibonaciR(5));
+        System.out.println(factorialR(10));
+        System.out.println("fibonacci: ");
+        System.out.println(fibonaciR(6));
+        System.out.println("potencia: ");
+        System.out.println(potencia(2, 3));
     }
 }
