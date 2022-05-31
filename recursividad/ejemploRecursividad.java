@@ -11,9 +11,18 @@ public class ejemploRecursividad {
         }
         return 1;
     }
+    public static int fibonaciR(int n) {
+        if(n > 1){
+            return fibonaciR(n-1)+fibonaciR(n-3);
+        }
+        return n;
+    }
+
 
 
     public static void main(String[] args){
         System.out.println(factorialR(5));
+        System.out.println("fibonaciR: ");
+        System.out.println(fibonaciR(5));
     }
 }
