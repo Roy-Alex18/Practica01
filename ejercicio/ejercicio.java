@@ -12,6 +12,7 @@ public class ejercicio {
         System.out.println("Ingrese num fila para linea: ");
         int numFilLinea = leerT.nextInt();
         int medio = cantF+1;
+        int d=0;
         for (int f = 1; f <= cantF ; f++) {
             for (int c = 1; c <= 2*cantF+1; c++) {
                 if(f == 1 && medio == c ){
